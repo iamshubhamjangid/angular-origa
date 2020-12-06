@@ -1,0 +1,34 @@
+<div class="table-responsive">
+    <table class="table table-bordered" style=" border: 1px solid;">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Username</th>
+                <th>City</th>
+                <th>PinCode</th>
+                <th>Company Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userdata" style="margin-top: 20px;">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.address.city}}</td>
+                <td>{{user.address.zipcode}}</td>
+                <td>{{user.company.name}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- <ag-grid-angular 
+    style="width: 1200px; height: 500px;" 
+    class="ag-theme-alpine"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs">
+</ag-grid-angular> -->
+
+
+<!-- <h6 *ngFor ='usr of rowData'>kjk{{usr}}</h6> -->

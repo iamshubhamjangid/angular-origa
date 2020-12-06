@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
+
+/* @import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css"; */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+canvas {
+    height: 300px !important;
+    width: 100% !important
+    /* position: absolute; */
+}
+
+.container_class {
+    background-color: #D0D0D0;
+    width: 1000px;
+    overflow-x: auto;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+.border_class {
+    border: 1px solid;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.ht40 {
+    height: 40%;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.fs40 {
+    font-size: 40px;
+    color: red;
+}
